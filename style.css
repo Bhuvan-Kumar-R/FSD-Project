@@ -1,0 +1,131 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+  }
+  header nav a {
+    color: #fff; /* Default color for all links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Adjust padding if needed */
+  }
+  
+  header nav a:hover {
+    background-color: #222; /* Hover effect background color */
+    color: #f0f0f0; /* Hover effect text color */
+  }
+  
+  header nav a.active { /* Style for the active link */
+    background-color: #f0f0f0; /* Active link background color */
+    color: #333; /* Active link text color */
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+  }
+  
+  main {
+    padding: 50px 0;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  .banner {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .banner h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .banner p {
+    font-weight: bold;
+  }
+  
+  .banner a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  
+  .about-us {
+    text-align: justify;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .menu-categories {
+    display: flex; /* Make items display side-by-side */
+    flex-wrap: wrap; /* Allow items to wrap if needed */
+    justify-content: space-between; /* Distribute items evenly */
+    align-items: flex-start; /* Align top of items */
+    width: 100%; /* Adjust width as needed for your layout */
+  }
+  
+  .menu-categories h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .menu-categories ul {
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    width: 45%; /* Adjust width for two items side-by-side */
+    margin-right: 10px; /* Add margin between items */
+    /* Optional: Add a border or background for each menu category */
+    /* border: 1px solid #ddd; */
+    /* background-color: #f0f0f0; */
+  }
+  
+  .menu-categories ul:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+  }
+  
+  .menu-categories ul li {
+    margin-bottom: 20px; /* Add space between menu items */
+  }
+  
+  .menu-categories ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color for menu items */
+    display: block; /* Make entire list item clickable */
+  }
+  
+  .menu-categories ul li a:hover {
+    color: #666; /* Text color on hover */
+  }
+  
+  .menu-categories ul li img {
+    width: 100%; /* Display images full width within their container */
+    margin-bottom: 10px; /* Add space between image and text */
+  }
